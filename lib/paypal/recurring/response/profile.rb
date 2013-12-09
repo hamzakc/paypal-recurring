@@ -32,7 +32,8 @@ module PayPal
         STATUS = {
           "Cancelled" => :canceled,
           "Active"    => :active,
-          "Suspended" => :suspended
+          "Suspended" => :suspended,
+          "Pending"   => :pending
         }
 
         PERIOD = {
